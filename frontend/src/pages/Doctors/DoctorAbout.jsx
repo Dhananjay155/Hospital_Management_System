@@ -16,7 +16,7 @@ const DoctorAbout = () => {
           consectetur velit illo ullam animi necessitatibus vero voluptatum fuga
           consequuntur, aspernatur perspiciatis adipisci. Necessitatibus et non
           sapiente sit distinctio, repellat illo totam perspiciatis, inventore
-          ex assumenda odit natus cumque saepe nostrum?
+          ex assumenda odit natus cumque saepe nostrum? 
         </p>
       </div>
 
