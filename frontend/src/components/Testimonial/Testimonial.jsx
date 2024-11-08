@@ -117,7 +117,7 @@ const Testimonial = () => {
             </div>
 
             <p className="text-[16px] leading-7 mt-4 text-textColor font-[400]">I have taken medical services from them. They treat so well and
-              they are provding the best medical services.
+              they are provding the best medical services. 
             </p>
           </div>
         </SwiperSlide>
