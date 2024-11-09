@@ -1,6 +1,5 @@
 
-import User from "../models/UserSchema";
-
+import User from '../models/UserSchema.js'; 
 export const updateUser = async (req, res) => {
   const id = req.params.id;
 
@@ -48,10 +47,7 @@ export const deleteUser = async (req, res) => {
     const id = req.params.id;
   
     try {
-      const user = await User.findById(
-        id,
-        
-      );
+      const user = await User.findById(id).select("-password");
   
       res
         .status(200)
@@ -68,10 +64,7 @@ export const deleteUser = async (req, res) => {
   export const getAllUser = async (req, res) => {
   
     try {
-      const users = await User.find({})(
-        id,
-        
-      );
+      const users = await User.find({}).select("-password");
   
       res
         .status(200)
